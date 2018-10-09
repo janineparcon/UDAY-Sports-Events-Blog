@@ -1,8 +1,14 @@
 <?php
 
-$dbServername = "localhost";
-$dbUsername = "root";
-$dbPassword = "";
-$dbName = "udaysportsdb";
+$conn = mysqli_connect("localhost","root","");
 
-$con = mysqli_connect($dbServername, $dbUsername, $dbPassword, $dbName);
+//Check connection
+if (mysqli_connect_errno())
+{
+	echo "Failed to connect to MYSQL: " . myaqli_connect_error();
+}
+else {
+	echo "You have successfully connected to MYSQL";
+}
+
+?>
