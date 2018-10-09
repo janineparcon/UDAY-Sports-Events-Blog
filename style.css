@@ -22,6 +22,7 @@ header nav ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
+    position: absolute;
 }
 
 header nav ul li {
@@ -146,3 +147,75 @@ header .nav-login a {
 .signup-form button:hover {
 	background-color: #111;
 }
+
+
+/*image slider*/
+
+@keyframes slider {
+
+0% {
+	left: 0;
+}
+
+20% {
+	left: 0;
+}
+
+25% {
+	left: -100%;
+}
+
+45% {
+	left: -100%;
+}
+
+50% {
+	left: -200%;
+}
+
+70% {
+	left: -200%;
+}
+
+75% {
+	left: -300%;
+}
+
+95% {
+	left: -400%;
+}
+
+100% {
+	left: -400%;
+}
+
+#slider {
+	overflow: hidden;
+}
+
+#slider figure img {
+	width: 100%;
+	float: left;
+}
+
+#slider figure {
+	position: relative;
+	width: 500%
+	margin: 0;
+	left: 0;
+	text-align: left;
+	font-size: 0;
+	animation: 20s slider infinite;
+}
+
+}
+
+/*about.php*/
+
+.vball{
+	border: 2px solid red;
+	color: red;
+}	
+
+
+
