@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>USEB Home</title>
+	<title>About</title>
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
@@ -15,14 +15,6 @@
 					<li><a href="news.php">News</a></li>
 				<li class="active"><a href="about.php">About</a></li>
 				</ul>
-				<div class="nav-login">
-					<form>
-						<input type="text" name="uid" placeholder="Username/Email">
-						<input type="password" name="pwd" placeholder="Password">
-						<button type="submit" name="submit">Login</button>
-					</form>
-					<a href="signup.php">Sign Up</a>
-				</div>
 			</div>
 		</nav>
 	</header>
@@ -31,5 +23,10 @@
 		<div class="main-wrapper">
 		</div>
 	</section>
+
+<div class="vball">
+<img src="PICTURES/wbgirls.jpg">asdawaw
+</div>
+
 </body>
 </html>
