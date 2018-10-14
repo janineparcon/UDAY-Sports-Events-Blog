@@ -30,7 +30,7 @@
 	<section class="main-container">
 		<div class="main-wrapper">
 			<h2>Sign Up</h2>
-			<form class="signup-form" action="includes/signup-inc.php" method="POST">
+			<form class="signup-form" action="register.php" method="POST">
 				<input type="text" name="first" placeholder="First Name">
 				<input type="text" name="last" placeholder="Last Name">
 				<input type="text" name="email" placeholder="Email Address">
