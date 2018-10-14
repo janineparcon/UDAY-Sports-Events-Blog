@@ -15,6 +15,14 @@
 					<li><a href="news.php">News</a></li>
 				<li class="active"><a href="about.php">About</a></li>
 				</ul>
+				<div class="nav-login">
+					<form action="login.php" method="POST">
+						<input type="text" name="uid" placeholder="Username/Email">   
+						<input type="password" name="pwd" placeholder="Password">
+						<button type="submit" name="loginbtn">Login</button>
+					</form>
+					<a href="signup.php">Sign Up</a>
+									</div>
 			</div>
 		</nav>
 	</header>
@@ -25,7 +33,7 @@
 	</section>
 
 <div class="vball">
-<img src="PICTURES/wbgirls.jpg">asdawaw
+<img src="PICTURES/wbgirls.jpg">
 </div>
 
 </body>
