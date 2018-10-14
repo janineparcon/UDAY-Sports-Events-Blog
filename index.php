@@ -16,13 +16,13 @@
 				<li><a href="about.php">About</a></li>
 				</ul>
 				<div class="nav-login">
-					<form>
-						<input type="text" name="uid" placeholder="Username/Email">
+					<form action="login.php" method="POST">
+						<input type="text" name="uid" placeholder="Username/Email">   
 						<input type="password" name="pwd" placeholder="Password">
-						<button type="submit" name="submit">Login</button>
+						<button type="submit" name="loginbtn">Login</button>
 					</form>
 					<a href="signup.php">Sign Up</a>
-				</div>
+									</div>
 			</div>
 		</nav>
 	</header>
